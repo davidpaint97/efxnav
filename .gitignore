@@ -1,0 +1,9 @@
+﻿build/
+cmake-build-*/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+JUCE/
+.cache/
