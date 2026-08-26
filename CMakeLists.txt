@@ -22,6 +22,9 @@ juce_add_plugin(EfxNavPlugin
     PRODUCT_NAME "EfxNav Plugin"
 )
 
+# Generar el archivo JuceHeader.h clásico requerido por el código fuente
+juce_generate_juce_header(EfxNavPlugin)
+
 # Añadir archivos fuente
 target_sources(EfxNavPlugin
     PRIVATE
